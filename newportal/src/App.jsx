@@ -5,9 +5,6 @@ import SortButton from "./assets/components/sorting";
 import "./assets/css/sorting.css";
 
 function App() {
-<<<<<<< HEAD
-    return (<></>);
-=======
   return (
     <>
       <NavBar />
@@ -16,7 +13,6 @@ function App() {
       </div>
     </>
   );
->>>>>>> 15371a312946d813e9850d34a8f01ea156998e84
 }
 
 export default App;
