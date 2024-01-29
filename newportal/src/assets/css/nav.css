@@ -3,10 +3,13 @@
 }
 
 .search-bar {
-  margin-right: 200px;
+  margin-right: 50px;
 }
 
 .logo {
-    width: 14%;
-    
+  width: 14%;
+}
+
+.sort-btn {
+  margin-right: 10px;
 }

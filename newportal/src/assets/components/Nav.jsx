@@ -6,16 +6,16 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "../css/nav.css";
 import logo from "../images/logo.png";
-import Image from 'react-bootstrap/Image';
+import Image from "react-bootstrap/Image";
+import SortButton from "./Sorting";
 
 function NavBar() {
   const settings = ["Toggle theme", "Preferences"];
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-       
-            <Image src={logo} className="logo"/>
-        
+        <Image src={logo} className="logo" />
+
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -37,7 +37,7 @@ function NavBar() {
             </NavDropdown>
             <NavDropdown title="Settings" id="navbarScrollingDropdown">
               {settings.map((cur) => (
-                <NavDropdown.Item>{cur}</NavDropdown.Item>
+                <NavDropdown.Item key={cur}>{cur}</NavDropdown.Item>
               ))}
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">Logout</NavDropdown.Item>
@@ -46,12 +46,16 @@ function NavBar() {
           <Form className="d-flex search-bar">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Find latest updates"
               className="me-2"
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
           </Form>
+          <div className="sort-btn">
+            <SortButton />
+          </div>
+
           <Button className="authentication-button" variant="outline-success">
             Login/Signup
           </Button>
