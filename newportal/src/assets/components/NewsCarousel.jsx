@@ -3,7 +3,7 @@ import "../css/carousel.css";
 
 function UncontrolledExample() {
   return (
-    <Carousel>
+    <Carousel variant="dark">
       <Carousel.Item>
         <div className="carousel-img-div">
           <Carousel.Caption>
