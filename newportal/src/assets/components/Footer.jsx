@@ -10,26 +10,26 @@ const Footer = () => {
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link px-2 text-white">
-              Features
+              About Us
             </a>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link px-2 text-white">
-              Pricing
+              Contact Us
             </a>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link px-2 text-white">
-              FAQs
+              News API
             </a>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link px-2 text-white">
-              About
+              Credits
             </a>
           </li>
         </ul>
-        <p className="text-center text-white">© 2021 Company, Inc</p>
+        <p className="text-center text-white">© 2024 NewShastra, Inc</p>
       </footer>
     </>
   );
