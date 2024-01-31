@@ -12,7 +12,7 @@ import SortButton from "./Sorting";
 function NavBar() {
   const settings = ["Toggle theme", "Preferences"];
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary navbar-header">
       <Container fluid>
         <Image src={logo} className="logo" />
 

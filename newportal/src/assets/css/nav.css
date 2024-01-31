@@ -1,8 +1,16 @@
+/* nav.css */
+
 .navbar-container {
   position: fixed;
   z-index: 10;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff; /* Set a background color */
+  opacity: 0.9;
 }
+
 
 .authentication-button {
   margin-left: 6px;
