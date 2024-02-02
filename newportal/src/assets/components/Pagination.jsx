@@ -1,6 +1,6 @@
 import Pagination from "react-bootstrap/Pagination";
-import "../css/homePagination.css";
-function HomePagination() {
+import "../css/pagination.css";
+function Pagination() {
   return (
     <Pagination>
       <Pagination.First />
@@ -18,4 +18,4 @@ function HomePagination() {
   );
 }
 
-export default HomePagination;
+export default Pagination;
